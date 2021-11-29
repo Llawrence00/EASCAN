@@ -13,12 +13,12 @@ namespace EASCAN.UserControls
             InitializeComponent();
         }
 
-<<<<<<< HEAD
+
         private void UC_Profile_Load(object sender, EventArgs e)
         {
 
         }
-=======
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -40,6 +40,6 @@ namespace EASCAN.UserControls
         }
 
        ///edit edit
->>>>>>> 6a787e1139be932e067cb2898ea07290a016ab6f
+
     }
 }
