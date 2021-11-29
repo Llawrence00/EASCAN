@@ -29,7 +29,7 @@ namespace EASCAN.UserControls
         {
             try
             {
-                string query = "insert into eascan_tbl(Name, Birthday, Address, Contact, Email,Age) values('" + this.textBox1.Text + "','" + this.textBox2.Text + "','" + this.textBox3.Text + "','" + this.textBox4.Text + "','" + this.textBox5.Text + "','" + this.textBox6.Text + "');";
+                string query = "insert into eascan_tbl(Name, Birthday, Address, Contact, Email,Age) values('" + this.label8.Text + "','" + this.label9.Text + "','" + this.label10.Text + "','" + this.label11.Text + "','" + this.label12.Text + "','" + this.label13.Text + "');";
                 MySqlConnection mycon2 = new MySqlConnection(mycon);
                 MySqlCommand mycommand = new MySqlCommand(query, mycon2);
                 MySqlDataReader MyReader1;
