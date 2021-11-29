@@ -206,12 +206,12 @@ namespace EASCAN.UserControls
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UC_Profile";
-<<<<<<< HEAD
+
             this.Size = new System.Drawing.Size(675, 391);
             this.Load += new System.EventHandler(this.UC_Profile_Load);
-=======
+
             this.Size = new System.Drawing.Size(506, 318);
->>>>>>> 6a787e1139be932e067cb2898ea07290a016ab6f
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
