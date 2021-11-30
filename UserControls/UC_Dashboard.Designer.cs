@@ -30,12 +30,12 @@ namespace EASCAN.UserControls
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblMask = new System.Windows.Forms.Label();
+            this.lblTemp = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblDay = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -48,12 +48,12 @@ namespace EASCAN.UserControls
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.lblMask);
+            this.panel1.Controls.Add(this.lblTemp);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.lblDay);
+            this.panel1.Controls.Add(this.lblDate);
+            this.panel1.Controls.Add(this.lblTime);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label4);
@@ -63,25 +63,25 @@ namespace EASCAN.UserControls
             this.panel1.Size = new System.Drawing.Size(953, 138);
             this.panel1.TabIndex = 5;
             // 
-            // label2
+            // lblMask
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(840, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 56);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "✓";
+            this.lblMask.AutoSize = true;
+            this.lblMask.Font = new System.Drawing.Font("Century Gothic", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMask.Location = new System.Drawing.Point(840, 45);
+            this.lblMask.Name = "lblMask";
+            this.lblMask.Size = new System.Drawing.Size(52, 56);
+            this.lblMask.TabIndex = 5;
+            this.lblMask.Text = "✓";
             // 
-            // label7
+            // lblTemp
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(661, 53);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 47);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "0°";
+            this.lblTemp.AutoSize = true;
+            this.lblTemp.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemp.Location = new System.Drawing.Point(661, 53);
+            this.lblTemp.Name = "lblTemp";
+            this.lblTemp.Size = new System.Drawing.Size(58, 47);
+            this.lblTemp.TabIndex = 4;
+            this.lblTemp.Text = "0°";
             // 
             // label5
             // 
@@ -93,35 +93,35 @@ namespace EASCAN.UserControls
             this.label5.TabIndex = 2;
             this.label5.Text = "Mask";
             // 
-            // label13
+            // lblDay
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(177, 78);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(91, 23);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Monday";
+            this.lblDay.AutoSize = true;
+            this.lblDay.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDay.Location = new System.Drawing.Point(177, 78);
+            this.lblDay.Name = "lblDay";
+            this.lblDay.Size = new System.Drawing.Size(91, 23);
+            this.lblDay.TabIndex = 2;
+            this.lblDay.Text = "Monday";
             // 
-            // label12
+            // lblDate
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(281, 45);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(94, 23);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "12/29/21";
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.Location = new System.Drawing.Point(281, 45);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(94, 23);
+            this.lblDate.TabIndex = 2;
+            this.lblDate.Text = "12/29/21";
             // 
-            // label11
+            // lblTime
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(177, 45);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(98, 23);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "11:30 am";
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.Location = new System.Drawing.Point(177, 45);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(98, 23);
+            this.lblTime.TabIndex = 2;
+            this.lblTime.Text = "11:30 am";
             // 
             // label9
             // 
@@ -191,16 +191,16 @@ namespace EASCAN.UserControls
 
         #endregion
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblTemp;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblDay;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblMask;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
