@@ -17,9 +17,8 @@ namespace EASCAN
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
 
-        }
     }
 }
+    
+
