@@ -30,7 +30,7 @@ namespace EASCAN
         private void InitializeComponent()
         {
             this.panel_navigation = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bttn_logout = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bttn_settings = new System.Windows.Forms.Button();
@@ -48,7 +48,7 @@ namespace EASCAN
             // 
             this.panel_navigation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(53)))), ((int)(((byte)(84)))));
             this.panel_navigation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_navigation.Controls.Add(this.button1);
+            this.panel_navigation.Controls.Add(this.bttn_logout);
             this.panel_navigation.Controls.Add(this.label2);
             this.panel_navigation.Controls.Add(this.pictureBox1);
             this.panel_navigation.Controls.Add(this.bttn_settings);
@@ -60,19 +60,19 @@ namespace EASCAN
             this.panel_navigation.Size = new System.Drawing.Size(199, 451);
             this.panel_navigation.TabIndex = 1;
             // 
-            // button1
+            // bttn_logout
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(216)))), ((int)(((byte)(209)))));
-            this.button1.Location = new System.Drawing.Point(0, 384);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 55);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Logout";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.bttn_logout_Click);
+            this.bttn_logout.FlatAppearance.BorderSize = 0;
+            this.bttn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttn_logout.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttn_logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(216)))), ((int)(((byte)(209)))));
+            this.bttn_logout.Location = new System.Drawing.Point(0, 384);
+            this.bttn_logout.Name = "bttn_logout";
+            this.bttn_logout.Size = new System.Drawing.Size(199, 55);
+            this.bttn_logout.TabIndex = 3;
+            this.bttn_logout.Text = "Logout";
+            this.bttn_logout.UseVisualStyleBackColor = true;
+            this.bttn_logout.Click += new System.EventHandler(this.bttn_logout_Click);
             // 
             // label2
             // 
@@ -200,7 +200,6 @@ namespace EASCAN
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel_header;
         private System.Windows.Forms.Button bttn_logout;
-        private System.Windows.Forms.Button button1;
     }
 }
 
